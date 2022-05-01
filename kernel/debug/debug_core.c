@@ -91,8 +91,8 @@ int dbg_switch_cpu;
 /* Use kdb or gdbserver mode */
 int dbg_kdb_mode = 1;
 
-module_param(kgdb_use_con, int, 0644);
-module_param(kgdbreboot, int, 0644);
+module_param(kgdb_use_con, int, 0645);
+module_param(kgdbreboot, int, 0645);
 
 /*
  * Holds information about breakpoints in a kernel. These breakpoints are
