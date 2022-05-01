@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
-# Cryptographic API
+# Cryptographical API
 #
 
 obj-$(CONFIG_CRYPTO) += crypto.o
